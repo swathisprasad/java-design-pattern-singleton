@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class SerializableSingleton implements Serializable {
 
-    private static final long serialVersionUID = 8806820726158932906L;
+    private static final long serialVersionUID = -6265755052204900542L;
 
     private static SerializableSingleton instance;
 
