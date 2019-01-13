@@ -6,7 +6,7 @@ public class SerializableWithReadResolveSingleton implements Serializable {
 
     private static final long serialVersionUID = 1911904003687931976L;
 
-    public static SerializableWithReadResolveSingleton instance = new SerializableWithReadResolveSingleton();
+    private static SerializableWithReadResolveSingleton instance;
 
     private SerializableWithReadResolveSingleton() {}
 
